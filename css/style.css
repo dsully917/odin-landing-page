@@ -126,13 +126,34 @@ a {
     font-weight: bold;
 }
 
-
-
-.action-call-button button {
+.content-bottom {
     background-color: #3882f6;
     color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 200px;
+    padding: 40px 80px;
+    border-radius: 15px;
+}
+
+.action-call-button button {
+    background-color: inherit;
+    color: inherit;
     padding: 8px 36px;
     border-radius: 8px;
     border-color: white;
     font-weight: 700;
+}
+
+.action-call-text {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 24px 0;
 }
