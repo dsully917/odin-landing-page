@@ -70,11 +70,12 @@ a {
     color: #e5e7eb;
 }
 
-button {
+.content-button button {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 8px 36px;
     border-radius: 8px;
+    border-color: #3882f6;
     font-weight: 700;
 }
 
@@ -123,4 +124,15 @@ button {
 .quote-author {
     text-align: right;
     font-weight: bold;
+}
+
+
+
+.action-call-button button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border-color: white;
+    font-weight: 700;
 }
