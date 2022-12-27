@@ -106,3 +106,21 @@ button {
     width: 100%;
     margin-bottom: 8px;
 }
+
+.content-quote {
+    background-color: #e5e7eb;
+    padding: 60px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
