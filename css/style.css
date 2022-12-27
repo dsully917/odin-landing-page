@@ -4,6 +4,11 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    background-color: black;
+    padding: 0 200px;
+    height: 100vh;
+    margin: 0;
+    min-width: 1000px;
 }
 
 .header {
@@ -17,6 +22,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 800;
+    flex: 1;
 }
 
 ul {
@@ -80,6 +86,7 @@ a {
 }
 
 .content-mid {
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,12 +133,16 @@ a {
     font-weight: bold;
 }
 
+.bottom-container {
+    background-color: white;
+    padding: 60px 200px;
+}
+
 .content-bottom {
     background-color: #3882f6;
     color: #e5e7eb;
     display: flex;
     justify-content: space-between;
-    margin: 60px 200px;
     padding: 40px 80px;
     border-radius: 15px;
 }
@@ -156,4 +167,5 @@ a {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 24px 0;
+    flex: 1;
 }
