@@ -78,7 +78,7 @@ button {
     font-weight: 700;
 }
 
-.content-mid1 {
+.content-mid {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,4 +104,5 @@ button {
     border-radius: 8px;
     height: 100px;
     width: 100%;
+    margin-bottom: 8px;
 }
